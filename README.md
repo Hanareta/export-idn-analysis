@@ -56,7 +56,7 @@ didokumentasikan karena prosesnya sendiri adalah bagian dari nilai portofolio:
 - **Footnote menempel di nama negara** (mis. `"Tiongkok1)"` di file volume, versus
   `"Tiongkok"` polos di `dim_negara`) menyebabkan seluruh data volume 1 negara besar
   hilang diam-diam dari hasil `JOIN` — ditemukan lewat validasi pola NULL menyeluruh
-  di Fase 8 (bukan asumsi "row count cocok berarti data benar"), lalu diperbaiki
+   (bukan asumsi "row count cocok berarti data benar"), lalu diperbaiki
   dengan `UPDATE ... FROM ... JOIN` setelah nama dibersihkan pakai `REPLACE`.
 
 ## Pertanyaan Bisnis & Temuan
